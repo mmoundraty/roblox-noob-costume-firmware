@@ -10,6 +10,8 @@ constexpr uint32_t DFPLAYER_BAUD = 115200;
 
 constexpr int16_t BREATHING_TRACK = 1;
 constexpr int16_t STARTUP_VOICE_TRACK = 2;
+constexpr int16_t OOF_SOUND = 3;
+constexpr int16_t MONSTER_MASH_SONG = 4;
 constexpr uint8_t VOLUME = 20;
 
 }  // namespace AudioConfig

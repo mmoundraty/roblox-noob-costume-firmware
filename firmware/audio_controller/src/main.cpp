@@ -31,7 +31,7 @@ void setup() {
 
   // Loop breathing forever.
   dfPlayer.setPlayMode(dfPlayer.SINGLECYCLE);
-  dfPlayer.playFileNum(AudioConfig::BREATHING_TRACK);
+  dfPlayer.playFileNum(AudioConfig::MONSTER_MASH_SONG);
 }
 
 void loop() {}
