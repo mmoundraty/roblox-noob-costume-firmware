@@ -14,4 +14,13 @@ constexpr int16_t OOF_SOUND = 3;
 constexpr int16_t MONSTER_MASH_SONG = 4;
 constexpr uint8_t VOLUME = 20;
 
+constexpr uint8_t SWC = 2; // because theres 2 files
+
+// Senders must use the same Wi-Fi channel. Payload: 1 byte, low 4 bits = glove FSR mask.
+constexpr uint8_t ESPNOW_CHANNEL = 1;
+
+// Track to play for each glove mask (bits: FSR4 FSR3 FSR2 FSR1). 0 = silent.
+// ponytail: placeholder tracks equal the mask; set the real sound per combo.
+
+
 }  // namespace AudioConfig
